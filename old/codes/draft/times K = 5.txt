@@ -1,2 +1,0 @@
-Number of iterations to achieve convergence with M = 100 :
-
