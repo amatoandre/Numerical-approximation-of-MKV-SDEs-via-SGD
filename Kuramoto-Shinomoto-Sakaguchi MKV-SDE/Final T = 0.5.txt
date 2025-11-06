@@ -1,0 +1,50 @@
+Euler - Monte Carlo execution time: 1.98
+
+Number of iterations to achieve convergence with T = 0.5 :
+
+Time with n=3, M=1, r0=5 and rho=0.7: 0.23
+Time with n=3, M=10, r0=5 and rho=0.7: 0.05
+Time with n=3, M=100, r0=5 and rho=0.8: 0.01
+Time with n=3, M=1000, r0=5 and rho=0.7: 0.02
+Time with n=3, M=10000, r0=5 and rho=0.9: 0.17
+
+Time with n=4, M=1, r0=1 and rho=0.6: 0.34
+Time with n=4, M=10, r0=5 and rho=0.6: 0.06
+Time with n=4, M=100, r0=5 and rho=0.6: 0.01
+Time with n=4, M=1000, r0=5 and rho=0.7: 0.02
+Time with n=4, M=10000, r0=5 and rho=0.9: 0.19
+
+Time with n=5, M=1, r0=10 and rho=0.8: 0.36
+Time with n=5, M=10, r0=5 and rho=0.8: 0.07
+Time with n=5, M=100, r0=5 and rho=0.7: 0.01
+Time with n=5, M=1000, r0=5 and rho=0.7: 0.02
+Time with n=5, M=10000, r0=5 and rho=0.6: 0.14
+
+Time with n=6, M=1, r0=10 and rho=0.8: 0.38
+Time with n=6, M=10, r0=5 and rho=0.7: 0.06
+Time with n=6, M=100, r0=5 and rho=0.6: 0.02
+Time with n=6, M=1000, r0=5 and rho=0.9: 0.02
+Time with n=6, M=10000, r0=5 and rho=0.6: 0.15
+
+Time with n=7, M=1, r0=10 and rho=0.8: 0.42
+Time with n=7, M=10, r0=5 and rho=0.6: 0.06
+Time with n=7, M=100, r0=5 and rho=0.6: 0.02
+Time with n=7, M=1000, r0=10 and rho=0.9: 0.02
+Time with n=7, M=10000, r0=5 and rho=0.6: 0.22
+
+Time with n=8, M=1, r0=5 and rho=0.7: 0.42
+Time with n=8, M=10, r0=5 and rho=0.6: 0.07
+Time with n=8, M=100, r0=5 and rho=0.7: 0.02
+Time with n=8, M=1000, r0=10 and rho=0.9: 0.03
+Time with n=8, M=10000, r0=10 and rho=0.8: 0.33
+
+
+Average
+         M=1         M=10         M=100         M=1000       M=10000
+---  -------       ------       -------       --------     ---------
+n=3  249.6 (0.23)  40.4 (0.05)  8.3 (0.01)    2.6 (0.02)   2 (0.17)
+n=4  368 (0.34)    48 (0.06)    8.2 (0.01)    2.6 (0.02)   2 (0.19)
+n=5  382.4 (0.36)  59.6 (0.06)  8.3 (0.01)    2.4 (0.02)   1.1 (0.14)
+n=6  405 (0.38)    53.8 (0.06)  8.3 (0.02)    2.4 (0.02)   1.1 (0.15)
+n=7  447.3 (0.42)  53.9 (0.06)  8.7 (0.02)    2.7 (0.02)   1.5 (0.22)
+n=8  451 (0.42)    55.2 (0.07)  10.3 (0.02)   2.7 (0.03)   2 (0.33)

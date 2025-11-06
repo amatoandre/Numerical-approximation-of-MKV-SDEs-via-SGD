@@ -1,0 +1,51 @@
+Euler - Monte Carlo execution time: 6.59
+
+Number of iterations to achieve convergence with T = 2 :
+
+Time with n=3, M=1, r0=1 and rho=0.6: 3.53
+Time with n=3, M=10, r0=1 and rho=0.6: 0.61
+Time with n=3, M=100, r0=1 and rho=0.6: 0.14
+Time with n=3, M=1000, r0=1 and rho=0.6: 0.15
+Time with n=3, M=10000, r0=1 and rho=0.6: 0.86
+
+Time with n=4, M=1, r0=1 and rho=0.6: 4.67
+Time with n=4, M=10, r0=1 and rho=0.6: 0.70
+Time with n=4, M=100, r0=1 and rho=0.6: 0.18
+Time with n=4, M=1000, r0=1 and rho=0.7: 0.21
+Time with n=4, M=10000, r0=1 and rho=0.6: 1.33
+
+Time with n=5, M=1, r0=1 and rho=0.6: 5.66
+Time with n=5, M=10, r0=1 and rho=0.6: 0.87
+Time with n=5, M=100, r0=1 and rho=0.6: 0.20
+Time with n=5, M=1000, r0=1 and rho=0.6: 0.26
+Time with n=5, M=10000, r0=1 and rho=0.6: 1.99
+
+Time with n=6, M=1, r0=1 and rho=0.6: 6.22
+Time with n=6, M=10, r0=5 and rho=0.8: 1.12
+Time with n=6, M=100, r0=5 and rho=0.8: 0.25
+Time with n=6, M=1000, r0=1 and rho=0.6: 0.33
+Time with n=6, M=10000, r0=5 and rho=0.9: 2.71
+
+Time with n=7, M=1, r0=1 and rho=0.6: 7.02
+Time with n=7, M=10, r0=1 and rho=0.6: 1.01
+Time with n=7, M=100, r0=5 and rho=0.8: 0.27
+Time with n=7, M=1000, r0=5 and rho=0.8: 0.35
+Time with n=7, M=10000, r0=5 and rho=0.9: 2.43
+
+Time with n=8, M=1, r0=1 and rho=0.6: 7.32
+Time with n=8, M=10, r0=1 and rho=0.6: 1.09
+Time with n=8, M=100, r0=1 and rho=0.6: 0.26
+Time with n=8, M=1000, r0=5 and rho=0.7: 0.37
+Time with n=8, M=10000, r0=5 and rho=0.8: 2.68
+
+
+Average
+         M=1          M=10         M=100         M=1000         M=10000
+---  -------       -------       -------       --------       ---------
+n=3   992.1 (3.53) 134 (0.61)    21.4 (0.14)   4.7 (0.15)     2.3 (0.86)
+n=4  1302.7 (4.67) 153.8 (0.70)  25.4 (0.18)   6 (0.21)       3.1 (1.33)
+n=5  1576.5 (5.66) 191.4 (0.87)  28.6 (0.20)   6.8 (0.26)     4.1 (1.99)
+n=6  1730.9 (6.22) 244.5 (1.12)  34.9 (0.25)   7.8 (0.33)     5 (2.71)
+n=7  1950.3 (7.02) 220.3 (1.01)  36.1 (0.27)   7.7 (0.35)     4 (2.43)
+n=8  2033.8 (7.32) 238.1 (1.09)  34.5 (0.26)   7.6 (0.37)     4 (2.68)
+

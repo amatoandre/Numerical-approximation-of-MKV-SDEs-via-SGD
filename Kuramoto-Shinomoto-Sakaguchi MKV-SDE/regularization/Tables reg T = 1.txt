@@ -1,0 +1,54 @@
+Euler - Monte Carlo execution time: 3.48
+
+Number of iterations to achieve convergence with T = 1 :
+
+Time with n=3, M=1, r0=1, rho=0.6, tau=1 and K=0.001: 0.82
+Time with n=3, M=10, r0=1, rho=0.6, tau=0.5 and K=0.001: 0.18
+Time with n=3, M=100, r0=5, rho=0.9, tau=0.5 and K=0: 0.05
+Time with n=3, M=1000, r0=5, rho=0.8, tau=0.1 and K=0.0003: 0.08
+Time with n=3, M=10000, r0=1, rho=0.6, tau=0.1 and K=0.001: 0.60
+
+Time with n=4, M=1, r0=5, rho=0.8, tau=0.5 and K=0.0007: 1.20
+Time with n=4, M=10, r0=1, rho=0.6, tau=0.1 and K=0.0005: 0.21
+Time with n=4, M=100, r0=5, rho=0.8, tau=1 and K=0.0005: 0.06
+Time with n=4, M=1000, r0=5, rho=0.9, tau=0.5 and K=0.0005: 0.07
+Time with n=4, M=10000, r0=5, rho=0.9, tau=0.5 and K=0.0003: 0.62
+
+Time with n=5, M=1, r0=1, rho=0.7, tau=1 and K=0.0005: 1.82
+Time with n=5, M=10, r0=1, rho=0.6, tau=0.5 and K=0.0005: 0.23
+Time with n=5, M=100, r0=5, rho=0.8, tau=0.5 and K=0.0005: 0.06
+Time with n=5, M=1000, r0=5, rho=0.9, tau=1 and K=0.0007: 0.08
+Time with n=5, M=10000, r0=5, rho=0.9, tau=1 and K=0.0003: 0.70
+
+Time with n=6, M=1, r0=1, rho=0.7, tau=0.1 and K=0.0007: 2.35
+Time with n=6, M=10, r0=1, rho=0.6, tau=0.1 and K=0: 0.26
+Time with n=6, M=100, r0=5, rho=0.9, tau=0.5 and K=0.0007: 0.07
+Time with n=6, M=1000, r0=5, rho=0.9, tau=1 and K=0.0007: 0.08
+Time with n=6, M=10000, r0=5, rho=0.9, tau=1 and K=0.0003: 0.56
+
+Time with n=7, M=1, r0=1, rho=0.6, tau=1 and K=0: 1.55
+Time with n=7, M=10, r0=1, rho=0.7, tau=0.5 and K=0.0003: 0.49
+Time with n=7, M=100, r0=5, rho=0.9, tau=1 and K=0.001: 0.11
+Time with n=7, M=1000, r0=5, rho=0.9, tau=0.5 and K=0: 0.08
+Time with n=7, M=10000, r0=5, rho=0.9, tau=0.5 and K=0.0003: 0.62
+
+Time with n=8, M=1, r0=1, rho=0.6, tau=0.5 and K=0: 1.77
+Time with n=8, M=10, r0=1, rho=0.6, tau=0.5 and K=0.0005: 0.31
+Time with n=8, M=100, r0=5, rho=0.7, tau=0.5 and K=0.0003: 0.07
+Time with n=8, M=1000, r0=5, rho=0.7, tau=0.1 and K=0.0003: 0.08
+Time with n=8, M=10000, r0=5, rho=0.9, tau=0.5 and K=0.0003: 0.69
+
+
+Average
+          M=1          M=10        M=100         M=1000       M=10000
+---  --------       -------       -------       --------     ---------
+n=3   459.2 (0.82)  78 (0.18)     15.8 (0.05)   5.4 (0.08)   3.7 (0.60)
+n=4   664.9 (1.20)  89.5 (0.21)   16.4 (0.06)   4.5 (0.07)   3 (0.62)
+n=5   1002 (1.82)   98.9 (0.23)   17.8 (0.06)   4.5 (0.08)   3 (0.70)
+n=6   1289.6 (2.35) 113.8 (0.26)  19.5 (0.07)   4 (0.08)     2.1 (0.56)
+n=7   852.8 (1.55)  212.1 (0.49)  30 (0.11)     3.9 (0.08)   2 (0.62)
+n=8   973.2 (1.77)  132.2 (0.31)  17.4 (0.07)   3.7 (0.08)   2.1 (0.69)
+
+Plot: n=3, M=100, r0=5, rho=0.9 and K=0
+      SGD execution time:  0.0410617490000007
+      SGD steps:  11

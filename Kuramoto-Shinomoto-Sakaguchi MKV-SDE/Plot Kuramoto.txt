@@ -1,0 +1,136 @@
+T=0.5 bis 
+
+Euler - Monte Carlo execution time:  1.4097668190000014
+ 
+SGD execution time:  0.02193923299999767
+ 
+SGD steps:  3
+ 
+SGD execution time:  0.02976845499999925
+ 
+SGD steps:  4
+ 
+SGD execution time:  0.015963410999997762
+ 
+SGD steps:  2
+ 
+SGD execution time:  0.034012944000000545
+ 
+SGD steps:  4
+ 
+SGD execution time:  0.037087715999998494
+ 
+SGD steps:  4
+ 
+SGD execution time:  0.0633404920000018
+ 
+SGD steps:  6
+
+T=0.5
+Euler - Monte Carlo execution time:  1.4192618099999983
+ 
+SGD execution time:  0.02184782100000149
+ 
+SGD steps:  3
+ 
+SGD execution time:  0.014879166000000055
+ 
+SGD steps:  2
+ 
+SGD execution time:  0.03101644099999845
+ 
+SGD steps:  4
+ 
+SGD execution time:  0.05001262200000056
+ 
+SGD steps:  6
+ 
+SGD execution time:  0.01934606699999719
+ 
+SGD steps:  2
+ 
+SGD execution time:  0.021678089999998207
+ 
+SGD steps:  2
+
+
+T=1
+Euler - Monte Carlo execution time:  2.873035113999997
+ 
+SGD execution time:  0.08975044400000343
+ 
+SGD steps:  6
+ 
+SGD execution time:  0.0650470229999982
+ 
+SGD steps:  4
+ 
+SGD execution time:  0.0719883210000063
+ 
+SGD steps:  4
+ 
+SGD execution time:  0.06019922899999841
+ 
+SGD steps:  3
+ 
+SGD execution time:  0.08807141399999807
+ 
+SGD steps:  4
+ 
+SGD execution time:  0.07381760099999468
+ 
+SGD steps:  3
+
+T=2 bis
+Euler - Monte Carlo execution time:  5.795088500000006
+ 
+SGD execution time:  0.16149871399998972
+ 
+SGD steps:  5
+ 
+SGD execution time:  0.24849792100000911
+ 
+SGD steps:  7
+ 
+SGD execution time:  0.15873701499999981
+ 
+SGD steps:  4
+ 
+SGD execution time:  0.25214343700000086
+ 
+SGD steps:  6
+ 
+SGD execution time:  0.32000585000000115
+ 
+SGD steps:  7
+ 
+SGD execution time:  0.35057559199999844
+ 
+SGD steps:  7
+
+T=2
+Euler - Monte Carlo execution time:  6.0775847599999935
+ 
+SGD execution time:  0.13187202000000298
+ 
+SGD steps:  4
+ 
+SGD execution time:  0.2194995999999918
+ 
+SGD steps:  6
+ 
+SGD execution time:  0.4262965850000029
+ 
+SGD steps:  11
+ 
+SGD execution time:  0.3393642839999984
+ 
+SGD steps:  8
+ 
+SGD execution time:  0.23555663599999832
+ 
+SGD steps:  5
+ 
+SGD execution time:  0.35860647199999107
+ 
+SGD steps:  7

@@ -1,0 +1,46 @@
+Euler - Monte Carlo execution time: 2.567
+
+Number of iterations to achieve convergence with T = 0.1 :
+
+Time with n=3, M=1, r0=10, rho=0.6: 0.06
+Time with n=3, M=10, r0=10, rho=0.6: 0.02
+Time with n=3, M=100, r0=10, rho=0.6: 0.01
+Time with n=3, M=1000, r0=10, rho=0.6: 0.03
+
+Plot: SGD execution time:  0.028
+      SGD steps:  28
+
+
+Euler - Monte Carlo execution time: 9.781
+
+Number of iterations to achieve convergence with T = 0.5 :
+
+Time with n=3, M=1, r0=1, rho=0.6: 3.52
+Time with n=3, M=10, r0=5, rho=0.7: 0.72
+Time with n=3, M=100, r0=5, rho=0.6: 0.20
+Time with n=3, M=1000, r0=5, rho=0.6: 0.39
+
+Plot: SGD execution time:  0.43
+      SGD steps:  92
+
+Euler - Monte Carlo execution time: 19.533
+
+Number of iterations to achieve convergence with T = 1 :
+
+Time with n=3, M=1, r0=1, rho=0.6: 9.91
+Time with n=3, M=10, r0=1, rho=0.6: 8.54
+Time with n=3, M=100, r0=1, rho=0.6: 3.07
+Time with n=3, M=1000, r0=1, rho=0.6: 8.25
+
+Plot: SGD execution time:  10.21
+      SGD steps:  994
+
+
+Average
+            M=1           M=10          M=100         M=1000
+-----  --------       --------       --------       --------
+T=0.1  258 (0.06)    52.3 (0.02)     31.5 (0.01)    26.9 (0.03)
+T=0.5  3456.7 (3.52)  590.3 (0.72)   131.2 (0.20)   79.7 (0.39)
+T=1    4995.9 (9.91)  3582 (8.54)    1003.9 (3.07)  776.8 (8.25)
+
+
