@@ -132,7 +132,7 @@ def stochastic_gradient_descent_table(a1_0, a2_0, n, r0, rho, sigma, N, M, X0, e
 
     return m
 
-# # --- Regularized version (commented out) would add L2 penalty beyond threshold tau ---
+# # --- Regularized version ---
 # def stochastic_gradient_descent_regularized(a1_0, a2_0, n, r0, rho, sigma, N, M, X0, eps, h, g, gamma1, gamma2, K, tau):
 #     a1, a2 = a1_0, a2_0
 #     norm1, norm2 = LA.norm(gamma1), LA.norm(gamma2)
