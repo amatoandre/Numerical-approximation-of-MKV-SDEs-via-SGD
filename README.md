@@ -12,5 +12,5 @@ Inside each folder you will find:
 
 For the Convolution-type MK-VSE experiment, all auxiliary functions are already contained in the notebook itself, so there is no separate Python file in that case.
 
-## License 
+## License
 This project is licensed under the Creative Commons Attribution 4.0 International License (CC BY 4.0).  
