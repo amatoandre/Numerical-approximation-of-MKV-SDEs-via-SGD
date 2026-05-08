@@ -14,7 +14,7 @@ def monte_carlo(sigma, N, h, M, X0):
     gamma1, gamma2 = np.zeros(N+1), np.zeros(N+1)
     gamma1[0], gamma2[0] = mean(np.sin(X)), mean(np.cos(X))   # initial values
 
-    # Euler-Maruyama time-stepping
+    # Euler-Maruyama time-step
     for i in range(N):
         W = np.random.normal(0, 1, M)   # Brownian increments
         # Update stochastic variable X
@@ -37,7 +37,7 @@ def base(N, h, n, X0, basis_type ):
         return a1_0, a2_0, g
 
     elif basis_type  == 'lagrange':
-        # Lagrange polynomial basis using Chebyshev nodes
+        # Lagrange polynomial basis with Chebyshev nodes
         l = [(0 + T)/2 + (T - 0)/2 * np.cos(((2 * i + 1)/ (2 * n + 2)) * math.pi) for i in range(n+1)]
         g = np.array([math.prod([((cc - l[j]) / (l[i] - l[j])) for j in range(n+1) if j!=i]) for i in range(n+1)])
         a1_0, a2_0 = np.sin(X0) * np.ones(n+1), np.cos(X0) * np.ones(n+1)
